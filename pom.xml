@@ -65,18 +65,11 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-		<repository>
-			<id>deployment</id>
-			<name>release</name>
-			<url>http://13.234.114.51:8081/nexus/content/repositories/releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>deployment</id>
-			<name>Internal Snapshot Releases</name>
-			<url>http://13.234.114.51:8081/nexus/content/repositories/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
-
+  <snapshotRepository>
+    <id>snapshot</id>
+    <url>http://35.154.179.135:8081/nexus/content/repositories/snapshot</url>
+  </snapshotRepository>
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
